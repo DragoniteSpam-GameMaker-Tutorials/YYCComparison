@@ -1,7 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":17,},
     {"id":{"name":"quicksort","path":"scripts/quicksort/quicksort.yy",},"order":15,},
-    {"id":{"name":"quicksort_tests","path":"scripts/quicksort_tests/quicksort_tests.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":14,},
   ],
   "Options": [
