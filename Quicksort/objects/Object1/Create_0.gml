@@ -27,7 +27,7 @@ nomen = [
 ];
 
 full_names = ds_list_create();
-for (var i = 0; i < 500; i++) {
+for (var i = 0; i < 1000; i++) {
     ds_list_add(full_names, nomen[irandom(array_length(nomen) - 1)] + ", " + praenomen[irandom(array_length(praenomen) - 1)]);
 }
 
