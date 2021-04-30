@@ -49,3 +49,6 @@ if (casting_frame == 0) {
 } else {
     casting_frame = max(0, casting_frame - 0.25);
 }
+
+frames++;
+fps_total += fps_real;

@@ -8,4 +8,5 @@ casting_frame = 0;
 
 audio_play_sound(bgm_idle_with_accordions, 100, true);
 
-show_debug_overlay(true);
+frames = 0;
+fps_total = 0;

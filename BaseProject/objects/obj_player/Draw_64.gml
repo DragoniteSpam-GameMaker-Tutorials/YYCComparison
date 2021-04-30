@@ -2,6 +2,9 @@ for (var i = 0; i < 3; i++) {
     draw_sprite_ext(spr_hearts, 0, 64 + 72 * i, 64, 4, 4, 0, c_white, 1);
 }
 
+draw_rectangle_colour(window_get_width() - 256, 0, window_get_width(), 32, c_black, c_black, c_black, c_black, false);
+draw_text_colour(window_get_width() - 224, 8, "Frame time: " + string(1000 / (fps_total / frames)), c_white, c_white, c_white, c_white, 1);
+
 if (talking) {
     //draw_nineslice(spr_nineslice, 0, 0, window_get_height() - 128, window_get_width(), window_get_height());
     draw_sprite_stretched(spr_nineslice, 0, 0, window_get_height() - 128, window_get_width(), 128);
